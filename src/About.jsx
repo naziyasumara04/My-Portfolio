@@ -6,7 +6,7 @@ export default function About() {
       <div className="about">About me</div>
       <div className="row">
         <div className="col-md-6 col-lg-6 col-sm-12 mr-5 mt-5">
-          <img src="/image/naziya.jpg" alt="myimage" />
+          <img src="/media/images/naziya.jpg" alt="myimage" />
         </div>
         <div
           className="col-md-6 col-lg-6 col-sm-12  mt-5 ml-5 p-4"
@@ -29,7 +29,7 @@ export default function About() {
             <a href="https://github.com/naziyasumara04">
               <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github
             </a>
-            <a href="www.linkedin.com/in/naziyasumara" target="_blank">
+            <a href="https://www.linkedin.com/in/naziyasumara/" target="_blank">
               <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp; Linkdln
             </a>
           </div>

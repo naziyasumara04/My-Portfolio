@@ -18,7 +18,7 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="/image/todo.png"
+                src="/images/todo.PNG"
                 className="card-img-top"
                 alt="todo_image"
               />
