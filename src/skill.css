@@ -1,0 +1,19 @@
+label{
+    /* color:; */
+}
+
+input{
+    color:black
+}
+
+input[type="range"].slider {
+    -webkit-appearance: none; /* Hides the slider, without it being hidden, the slider is slightly visible */
+    width: 60%; /* Full-width */
+    height: 10px; /* Specific height */
+    background: #1E3A5F; /* Black track */
+    outline: none; /* Removes the default outline */
+    opacity: 0.7; /* Slightly transparent */
+    transition: opacity 0.2s; /* Transition effect when adjusting the slider */
+    border-radius: 5px;
+    color:white;
+  }

@@ -5,9 +5,10 @@ export default function Home() {
   return (
     <div
       className="container-fluid"
+      id="home"
       style={{
         height: "300px",
-        backgroundColor: "rgb(92, 89, 89)",
+        backgroundColor: "rgb(172, 169, 175)",
         display: "flex",
         alignContent: "center",
         justifyContent: "center",

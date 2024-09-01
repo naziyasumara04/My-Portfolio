@@ -1,0 +1,10 @@
+#navv{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.custom-hover-effect:hover {
+    background-color: #D3D3D3; 
+    padding:4px 10px 4px 10px;
+  }
+  

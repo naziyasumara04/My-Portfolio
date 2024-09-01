@@ -4,13 +4,16 @@ export default function About() {
   return (
     <div className="container" id="about">
       <div className="about">About me</div>
-      <div className="row mt-5">
-        <div className="col-6-md col-6-lg col-12-sm">
+      <div className="row">
+        <div className="col-md-6 col-lg-6 col-sm-12 mr-5 mt-5">
           <img src="/image/naziya.jpg" alt="myimage" />
         </div>
         <div
-          className="col-6-md col-6-lg col-12-sm mt-3 ml-5 p-4"
-          style={{ backgroundColor: "rgb(172, 169, 175)" }}
+          className="col-md-6 col-lg-6 col-sm-12  mt-5 ml-5 p-4"
+          style={{
+            backgroundColor: "#D3D3D3",
+            borderRadius: "10px",
+          }}
         >
           <h1>Hello!</h1>
           <h4>My name is Naziya</h4>
@@ -18,21 +21,16 @@ export default function About() {
             As a passionate and innovative web developer,I have successfully
             developed various projects using the MERN stack, leveraging MongoDB,
             Express.js, React, and Node.js to build full-stack applications. My
-            projects range from dynamic, responsive web applications to complex
-            platforms with robust back-end functionality and interactive user
-            interfaces. Through these projects, I have honed my skills in
-            RESTful API development, database design, state management, and
-            deploying scalable applications. My experience with the MERN stack
-            allows me to create seamless, end-to-end solutions that effectively
-            meet both client and user needs."
+            experience with the MERN stack allows me to create seamless,
+            end-to-end solutions that effectively meet both client and user
+            needs."
           </p>
           <div className="links">
             <a href="https://github.com/naziyasumara04">
-              <i class="fa-brands fa-github"></i>Github
+              <i class="fa-brands fa-github"></i>&nbsp;&nbsp;Github
             </a>
             <a href="www.linkedin.com/in/naziyasumara" target="_blank">
-              <i class="fa-brands fa-linkedin"></i>
-              Linkdln
+              <i class="fa-brands fa-linkedin"></i>&nbsp;&nbsp; Linkdln
             </a>
           </div>
         </div>
