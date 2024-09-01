@@ -18,7 +18,7 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="/images/todo.PNG"
+                src="/media/images/todo.PNG"
                 className="card-img-top"
                 alt="todo_image"
               />
@@ -48,7 +48,7 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 d-flex justify-content-center ">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="/image/calculator.png"
+                src="/media/image/calculator.png"
                 className="card-img-top"
                 alt="todo_image"
               />
@@ -75,12 +75,12 @@ export default function Project() {
             </div>
           </div>
         </div>
-        {/* mmmmmmmm */}
+
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="/image/wanderlust.png"
+                src="/media/image/wanderlust.png"
                 className="card-img-top"
                 alt="todo_image"
               />
@@ -110,7 +110,7 @@ export default function Project() {
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="/image/qrcode.png"
+                src="/media/image/qrcode.png"
                 className="card-img-top"
                 alt="todo_image"
               />
@@ -137,12 +137,12 @@ export default function Project() {
             </div>
           </div>
         </div>
-        {/* mmmmmmmmm */}
+
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
               <img
-                src="/image/flavor.png"
+                src="/media/image/flavor.png"
                 className="card-img-top"
                 alt="todo_image"
               />
@@ -162,7 +162,6 @@ export default function Project() {
             </div>
           </div>
         </div>
-        {/* mmmmmmm */}
       </div>
     </div>
   );
