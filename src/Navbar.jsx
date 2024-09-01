@@ -6,7 +6,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-lg container-md">
           <div className="d-none d-md-block">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="#about">
               Home
             </a>
             <a className="navbar-brand" href="#">

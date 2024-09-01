@@ -1,3 +1,33 @@
-.home{
-    color:red;
-}
+ .home{
+    color:rgb(240, 232, 232); 
+     background-color: rgb(92, 89, 89); 
+     width:100%;
+    height:50%;
+    margin:auto;
+    padding:20px; 
+    text-align: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-shadow: 4px 4px 8px black;
+    animation:name 2s ease-in-out infinite;
+ } 
+  
+ @keyframes name{
+    0%{
+        font-size:3em ;
+    }
+    50%{
+        color:rgb(123, 120, 120);
+    }
+    100%{
+        font-size: 4em;
+        color:rgb(18, 19, 19)
+    }
+ }
+
+ .download-button{
+    color:white;
+    text-decoration: none;
+    margin-top:30px;
+    /* border:2px solid black; */
+ }
