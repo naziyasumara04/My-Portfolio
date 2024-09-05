@@ -20,9 +20,9 @@ export default function Home() {
           <br />
           Web Developer
         </h1>
-        <a href="/doc/NaziyaSumara.pdf" download className="download-button">
+        {/* <a href="/doc/NaziyaSumara.pdf" download className="download-button">
           <button>Download CV</button>
-        </a>
+        </a> */}
       </div>
     </div>
   );
