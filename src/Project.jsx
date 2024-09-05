@@ -128,7 +128,7 @@ export default function Project() {
                 </a>
                 &nbsp;&nbsp;&nbsp;
                 <a
-                  href="https://naziyasumara04.github.io/Calculator/"
+                  href="https://naziyasumara04.github.io/QR-Code-Generator/"
                   class="btn btn-outline-secondary"
                 >
                   View

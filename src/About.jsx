@@ -6,7 +6,7 @@ export default function About() {
       <div className="about">About me</div>
       <div className="row">
         <div className="col-md-6 col-lg-6 col-sm-12 mr-5 mt-5">
-          <img src="/media/images/naziya.jpg" alt="myimage" />
+          <img src="\public\media\images\naziya.jpg" alt="myimage" />
         </div>
         <div
           className="col-md-6 col-lg-6 col-sm-12  mt-5 ml-5 p-4"
