@@ -1,4 +1,9 @@
 import "./project.css";
+import todoImage from "./assets/images/todo.png";
+import calImage from "./assets/images/calculator.png";
+import wanImage from "./assets/images/wanderlust.png";
+import qrImage from "./assets/images/qrcode.png";
+import flavImage from "./assets/images/flavor.png";
 
 export default function Project() {
   return (
@@ -17,11 +22,7 @@ export default function Project() {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src="/media/images/todo.PNG"
-                className="card-img-top"
-                alt="todo_image"
-              />
+              <img src={todoImage} className="card-img-top" alt="todo_image" />
               <div className="card-body">
                 <h5 className="card-title">Todo-App</h5>
                 <p className="card-text fs-6">
@@ -47,11 +48,7 @@ export default function Project() {
 
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 d-flex justify-content-center ">
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src="/media/image/calculator.png"
-                className="card-img-top"
-                alt="todo_image"
-              />
+              <img src={calImage} className="card-img-top" alt="todo_image" />
               <div className="card-body">
                 <h5 className="card-title">Calculator</h5>
                 <p className="card-text fs-6">
@@ -79,11 +76,7 @@ export default function Project() {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src="/media/image/wanderlust.png"
-                className="card-img-top"
-                alt="todo_image"
-              />
+              <img src={wanImage} className="card-img-top" alt="todo_image" />
               <div className="card-body">
                 <h5 className="card-title">Wanderlust</h5>
                 <p className="card-text fs-6">
@@ -109,11 +102,7 @@ export default function Project() {
 
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src="/media/image/qrcode.png"
-                className="card-img-top"
-                alt="todo_image"
-              />
+              <img src={qrImage} className="card-img-top" alt="todo_image" />
               <div className="card-body">
                 <h5 className="card-title">QR code Generator</h5>
                 <p className="card-text fs-6">
@@ -141,11 +130,7 @@ export default function Project() {
         <div className="row">
           <div className="col-sm-12 col-md-6 col-lg-6 p-2 ml-4 d-flex justify-content-center">
             <div className="card" style={{ width: "18rem" }}>
-              <img
-                src="/media/image/flavor.png"
-                className="card-img-top"
-                alt="todo_image"
-              />
+              <img src={flavImage} className="card-img-top" alt="todo_image" />
               <div className="card-body">
                 <h5 className="card-title">flavourFusion</h5>
                 <p className="card-text fs-6">

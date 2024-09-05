@@ -1,12 +1,12 @@
 import "./About.css";
-
+import myImage from "./assets/images/naziya.jpg";
 export default function About() {
   return (
     <div className="container" id="about">
       <div className="about">About me</div>
       <div className="row">
         <div className="col-md-6 col-lg-6 col-sm-12 mr-5 mt-5">
-          <img src="\public\media\images\naziya.jpg" alt="myimage" />
+          <img src={myImage} alt="My Image" />
         </div>
         <div
           className="col-md-6 col-lg-6 col-sm-12  mt-5 ml-5 p-4"
